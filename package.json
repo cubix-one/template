@@ -1,0 +1,14 @@
+{
+  "name": "::PROJECT_NAME::",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w",
+    "reorganize": "cubix -r src -o out"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
