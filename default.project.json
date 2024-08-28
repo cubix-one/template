@@ -22,7 +22,7 @@
                         "$path": "node_modules/@rbxts"
                     },
                     "cubix": {
-                        "$path": "node_modules/cubix"
+                        "$path": "node_modules/cubix-one"
                     }
                 }
             },
