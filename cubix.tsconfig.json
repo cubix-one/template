@@ -1,8 +1,9 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "lib": ["ESNext", "DOM"],
-    "jsx": "react-jsx",
+    "typeRoots": [
+      "node_modules/@rbxts"
+    ],
     "allowJs": true,
     "verbatimModuleSyntax": false,
     "noEmit": false,
@@ -15,5 +16,8 @@
     "forceConsistentCasingInFileNames": true,
     "rootDir": "::ROOT_DIR::"
   },
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*",
+    "out/cubix/**/*"
+  ]
 }
