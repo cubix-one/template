@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "cubix build",
-    "watch": "cubix -w",
-    "reorganize": "cubix -r src -o out"
+    "watch": "cubix -w"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
