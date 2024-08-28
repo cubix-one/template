@@ -16,16 +16,16 @@
     "typeRoots": [
       "node_modules/@rbxts"
     ],
-    "rootDir": "out/cubix",
-    "outDir": "out/roblox",
-    "baseUrl": "out/cubix",
+    "rootDir": "::OUT_DIR::/cubix",
+    "outDir": "::OUT_DIR::/roblox",
+    "baseUrl": "::OUT_DIR::/cubix",
     "incremental": true,
-    "tsBuildInfoFile": "out/roblox/tsconfig.tsbuildinfo",
+    "tsBuildInfoFile": "::OUT_DIR::/roblox/tsconfig.tsbuildinfo",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
   "include": [
     "node_modules/reflect-metadata",
-    "out/cubix/**/*"
+    "::OUT_DIR::/cubix/**/*"
   ]
 }
