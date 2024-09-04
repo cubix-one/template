@@ -12,5 +12,4 @@
 	"eslint.format.enable": true,
 	"explorer.compactFolders": false,
 	"typescript.tsdk": "node_modules/typescript/lib",
-	"tslint.configFile": "cubix.tsconfig.json",
 }

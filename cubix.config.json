@@ -1,0 +1,12 @@
+{
+    "$schema": "file:///D://Backup//Dev//Projects//cubix//dist//apps//cli//cubix-config-schema.json",
+    "projectInfo": {
+        "name": "::PROJECT_NAME::",
+        "version": "1.0.0",
+        "description": "Game made by cubix framework",
+        "author": "cubix",
+        "license": "MIT"
+    },
+    "outDir": "::OUT_DIR::",
+    "rootDir": "::ROOT_DIR::"
+}

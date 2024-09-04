@@ -114,7 +114,7 @@ web_modules/
 # Next.js build output
 
 .next
-::OUT_DIR::
+out
 
 # Nuxt.js build / generate output
 
