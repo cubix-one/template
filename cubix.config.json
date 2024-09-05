@@ -1,5 +1,5 @@
 {
-    "$schema": "file:///D://Backup//Dev//Projects//cubix//dist//apps//cli//cubix-config-schema.json",
+    "$schema": "https://raw.githubusercontent.com/cubix-one/cubix/main/cubix-config-schema.json",
     "projectInfo": {
         "name": "::PROJECT_NAME::",
         "version": "1.0.0",
